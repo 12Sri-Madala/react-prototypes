@@ -1,7 +1,26 @@
 import React from 'react';
 
 export default props => {
+
+    const { firstName, lastName, phone, email } = props.contact;
+    const fullName = `First Name: ${firstName}, Last Name: ${lastName}`
+
     return (
-        <h1>Full Name: {props.lastName}, {props.firstName}</h1>
+        <div className="col-6 my-3">
+            <div className="card">
+                <div className="card-header">
+                    {lastName}
+                </div>
+                <div className="card-block">
+                    <h4 className="card-title">
+                        {fullName}
+                    </h4>
+                    <div className="card-text">
+                        <p><b>Phone:</b> { phone }</p>
+                        <p><b>Email:</b> { email }</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     )
 }

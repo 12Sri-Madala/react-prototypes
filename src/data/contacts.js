@@ -1,28 +1,30 @@
 import React from 'react';
 
-export default [
+const ContactListData = [
     {
-        firstName: "Bob",
-        lastName: 'belcher',
-        phone: '123-456-7890',
-        email: 'bobsburgers@gmail.com'
-    },
+        "firstName": "Robbie",
+        "lastName": "Duinbleton",
+        "email": "rduinbleton0@cnbc.com",
+        "phone": "807-690-0132"
+    }, 
     {
-        firstName: "Linda",
-        lastName: 'belcher',
-        phone: '664-524-9685',
-        email: 'lindasburgers@gmail.com'
-    },
+        "firstName": "Joelynn",
+        "lastName": "Featherstone",
+        "email": "jfeatherstone1@meetup.com",
+        "phone": "799-101-0371"
+    }, 
     {
-        firstName: "Louise",
-        lastName: 'belcher',
-        phone: '784-294-1859',
-        email: 'louisesburgers@gmail.com'
-    },
+        "firstName": "Laughton",
+        "lastName": "Stairs",
+        "email": "lstairs2@delicious.com",
+        "phone": "365-663-9262"
+    }, 
     {
-        firstName: "Gene",
-        lastName: 'belcher',
-        phone: '845-194-3495',
-        email: 'genesburgers@gmail.com'
-    }
-];
+        "firstName": "Diane",
+        "lastName": "Upstone",
+        "email": "dupstone3@digg.com",
+        "phone": "434-293-6129"
+  }
+]
+
+export default ContactListData;
